@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
     }
 
     @Override
-    public void onClick(View v) {
+    public void onClick(View v)  {
         // TODO Auto-generated method stub
         // btn_Login is the ID of Login button defined in the layout
         if (v.getId() == R.id.btn_Login)
