@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
     public void onClick(View v)  {
         // TODO Auto-generated method stub
         // btn_Login is the ID of Login button defined in the layout
-        if (v.getId() == R.id.btn_Login)
+        if (v.getId()== R.id.btn_Login)
         {
             String uname = txt_UserName.getText().toString();
             String upassword = txt_UserPW.getText().toString();
