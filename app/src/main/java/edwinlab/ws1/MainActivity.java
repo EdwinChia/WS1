@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
         {
             String uname = txt_UserName.getText().toString();
             String upassword = txt_UserPW.getText().toString();
-            System.out.println( "@@@@@@@@@@@@@      @@\n" +
+            System.out.println( "@@@@@@@@@@@@@     @@\n" +
                     "The Portal ID is: " + uname + "\n" +
                     "The Password is: " + upassword + "\n" +
                     "@@@@@@@@@@@@@@@" );
